@@ -77,3 +77,33 @@ const obtenerFrutasAlAzar = () => {
 }
 
 console.log(obtenerFrutasAlAzar())
+
+console.log("Ejercicio 5")
+
+const listaDeFrutas = []
+
+listaDeFrutas.push(obtenerFrutasAlAzar())
+console.log(listaDeFrutas)
+
+listaDeFrutas.push(obtenerFrutasAlAzar())
+console.log(listaDeFrutas)
+
+listaDeFrutas.push(obtenerFrutasAlAzar())
+console.log(listaDeFrutas)
+
+listaDeFrutas.push(obtenerFrutasAlAzar())
+console.log(listaDeFrutas)
+
+listaDeFrutas.push(obtenerFrutasAlAzar())
+console.log(listaDeFrutas)
+
+// for (fruta of listaDeFrutas) {
+//     if (listaDeFrutas.length < 6){
+//         fruta[obtenerFrutasAlAzar()]
+//         console.log(listaDeFrutas)
+//     }
+// }
+
+console.log("Ejercicio 6")
+
+const otraListaDeFrutas = []
