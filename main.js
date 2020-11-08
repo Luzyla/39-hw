@@ -57,3 +57,23 @@ const ordenInverso = () => {
 }
 
 ordenInverso()
+
+console.log("Ejercicio 4")
+
+const items = ['watermelon', 'pear', 'banana', 'grapes', 'apple', 'tangerine']
+
+const obtenerNumeroAlAzar = () => {
+    let numeroAlAzar = Math.floor(Math.random() * 6)
+    return numeroAlAzar
+}
+
+console.log(obtenerNumeroAlAzar())
+
+const obtenerFrutasAlAzar = () => {
+    let numeroDeFruta = obtenerNumeroAlAzar()
+    let frutaAlAzar = items[numeroDeFruta]
+    console.log(numeroDeFruta)
+    return frutaAlAzar
+}
+
+console.log(obtenerFrutasAlAzar())
