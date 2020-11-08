@@ -37,3 +37,23 @@ const calcularPromedio = (notas) => {
 console.log(calcularPromedio(notas))
 
 console.log("Ejercicio 3")
+
+const playlist = ["Concrete and Gold", "The Line", "Sunday Rain", "Happy Ever After (Zero Hour)", "Arrows", "Dirty Water", "La Dee Da", "The Sky Is a Neighborhood", "Make It Right", "Run", "T-Shirt"];
+
+const ordenDirecto = () => {
+    for (let cancion of playlist) {
+        console.log(cancion)        
+    }
+}
+
+ordenDirecto()
+
+const playlistInvertida = playlist.reverse()
+
+const ordenInverso = () => {
+    for (let cancion of playlistInvertida) {
+        console.log(cancion)        
+    }
+}
+
+ordenInverso()
