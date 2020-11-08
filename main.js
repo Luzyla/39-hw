@@ -60,11 +60,10 @@ ordenInverso()
 
 console.log("Ejercicio 4")
 
-const items = ['watermelon', 'pear', 'banana', 'grapes', 'apple', 'tangerine']
+const items = ['🍉', '🍐', '🍌', '🍇', '🍎', '🍊']
 
 const obtenerNumeroAlAzar = () => {
-    let numeroAlAzar = Math.floor(Math.random() * 6)
-    return numeroAlAzar
+    return Math.floor(Math.random() * 6)
 }
 
 console.log(obtenerNumeroAlAzar())
